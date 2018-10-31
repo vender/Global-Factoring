@@ -1,0 +1,53 @@
+#conditions {
+    background: url('../../images/conditions-bg.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 45px 0 65px;
+    height: 449px;
+
+    .item-1 {
+        padding-right: 53px;
+        h4 {
+            margin: 0 0 44px;
+        }
+    }
+    .item-2 {
+        h4 {
+            margin: 0 0 16px;
+        }
+    }
+    .item-3 {
+        padding-left: 52px;
+        h4 {
+            margin: 0 0 16px;
+        }
+    }
+    h2 {
+        color: white;
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 50px;
+        text-align: center;
+        width: 100%;
+        margin: 0 0 48px;
+    }
+    .icon {
+        text-align: center;
+        margin: 0 0 27px;
+    }
+    .text {
+        text-align: center;
+        color: white;
+        font-family: Roboto;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 20px;
+
+        h4 {
+            color: white;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            text-transform: uppercase;
+        }
+    }
+}

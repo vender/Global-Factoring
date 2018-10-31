@@ -1,0 +1,54 @@
+#need-to-know {
+    height: 431px;
+    padding: 46px 0 0;
+
+    h2 {
+        color: #133a81;
+        font-size: 34px;
+        font-weight: 600;
+        line-height: 50px;
+        text-align: center;
+        margin: 0 0 49px;
+    }
+    .rub {
+        font-family: 'ALS Rubl';
+        text-transform: lowercase;
+        font-weight: 400;
+    }
+    .list-wrap {
+        display: flex;
+        justify-content: center;
+
+        .icon {
+            margin: 0 0 21px;
+        }
+        .price {
+            color: #1fba9d;
+            font-size: 25px;
+            line-height: 20px;
+            text-transform: uppercase;
+            font-family: Roboto;
+            font-weight: 900;
+            margin: 0 0 16px;
+        }
+        .text {
+            color: black;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 20px;
+            white-space: nowrap;
+        }
+        .item {
+            margin: 0 18px;
+            text-align: center;
+        }
+        .item:nth-child(even) {
+            padding: 27px 0 0;
+            width: 95px;
+        }
+        .item:nth-child(odd) {
+            width: 195px;
+        }
+    }
+}

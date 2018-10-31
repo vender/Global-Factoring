@@ -1,0 +1,29 @@
+#action {
+    height: 171px;
+    background: url('../../images/action-bg.jpg');
+    padding: 24px 0 0;
+
+    h2 {
+        color: #133a81;
+        font-size: 43px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: center;
+        strong {
+            color: white;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 61px;
+        }
+        a {
+            color: #133a81;
+            span {
+                
+                font-size: 43px;
+                font-weight: 300;
+                line-height: 30px;
+            }
+        }
+        
+    }
+}

@@ -1,0 +1,69 @@
+#problem-solving {
+    background: url('../../images/problem-solving-bg.jpg') no-repeat bottom center;
+    height: 675px;
+    padding: 49px 0 65px;
+
+    h2 {
+        color: #4ac6b7;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 45px;
+        margin: 0 0 14px;
+    }
+    p {
+        color: black;
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .list-wrap {
+        margin: 54px 0 0;
+
+        .list-item.one {
+            display: flex;
+            margin: 0 0 56px;
+
+            .icon {
+                margin-right: 16px;
+            }
+            .text {
+                color: black;
+                font-size: 14px;
+                line-height: 20px;
+                padding: 15px 0 0;
+            }
+            h4 {
+                color: black;
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 20px;
+                text-transform: uppercase;
+                margin: 0 0 6px;
+            }
+            
+        }
+        .list-item.two {
+            display: flex;
+
+            .icon {
+                margin-right: 16px;
+            }
+            .text {
+                color: black;
+                font-size: 14px;
+                line-height: 20px;
+                padding: 25px 0 0;
+            }
+            h4 {
+                color: black;
+                font-family: Roboto;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 20px;
+                text-transform: uppercase;
+                margin: 0 0 6px;
+            }
+            
+        }
+    }
+}

@@ -1,0 +1,79 @@
+#menu {
+    height: 50px;
+    background-color: #ececec;
+    
+    .navbar {
+        padding: 0;
+        .collapse {
+            .navbar-nav {
+                width: 100%;
+                justify-content: center;
+                > li {
+                    display: inline-block;
+                    width: 31.5%;
+                    > a {
+                        color: #25262a;
+                        font-size: 15px;
+                        font-weight: 400;
+                        line-height: 50px;
+                        text-transform: uppercase;
+                        &.dropdown-toggle::after {
+                            display: none;
+                        }
+                    }
+                    &:hover > a {
+                        color: white;
+                        background-color: #007aa3;
+                    }
+                    &.dropdown:hover>.dropdown-menu {
+                        display: block;
+                      }
+                      
+                    &.dropdown>.dropdown-toggle:active {
+                          pointer-events: none;
+                    }
+                }
+                > li:nth-child(1) {
+                    > a {
+                        padding: 0 0 0 65px;
+                    }
+                }
+                > li:nth-child(2) {
+                    > a {
+                        text-align: center;
+                        padding: 0 60px 0;
+                    }
+                }
+                > li:nth-child(3) {
+                    > a {
+                        padding: 0 0 0 127px;
+                    }
+                }
+                .dropdown-menu {
+                    margin: 0;
+                    padding: 0;
+                    border: 0;
+                    width: 100%;
+                    background-color: #0082ad;
+                    box-shadow: 5px 8.7px 13px rgba(0, 0, 0, 0.38);
+                    border-radius: 0;
+                    .dropdown-item {
+                        color: white;
+                        font-size: 16px;
+                        line-height: 23px;
+                        font-weight: 400;
+                        white-space: normal;
+                        padding: 12px 22px;
+                        &:hover {
+                            background-color: #007aa3;
+                        }
+                        &:nth-child(even) {
+                            border-top: 1px solid rgba(255, 255, 255, 0.1);
+                            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

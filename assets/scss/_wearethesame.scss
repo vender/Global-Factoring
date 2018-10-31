@@ -1,0 +1,54 @@
+#wearethesame {
+    height: 506px;
+    padding: 60px 0 0;
+    background: url('../../images/wearethesame-bg.jpg') no-repeat center center;
+    background-size: cover;
+
+    .col-item {
+        height: 329px;
+        width: 695px;
+        background-color: #f3f3f3;
+        margin-left: -31px;
+        position: relative;
+        z-index: 5;
+        padding: 28px 30px 0;
+        color: black;
+
+        h3 {
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 25px;
+            margin: 0 0 11px;
+        }
+        p {
+            font-size: 16px;
+            font-weight: 300;
+            line-height: 25px;
+        }
+        .logo {
+            width: 113px;
+            height: 69px;
+            opacity: 0.5;
+            margin: 66px 0 0;
+        }
+        .text {
+            float: right;
+            color: black;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 25px;
+            margin: 81px 0 0;
+        }
+    }
+    .square {
+        content: '';
+        position: absolute;
+        z-index: 4;
+        width: 335px;
+        height: 329px;
+        opacity: 0.5;
+        background-color: #0082ad;
+        bottom: -47px;
+        right: -14px;
+    }
+}

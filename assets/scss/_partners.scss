@@ -1,0 +1,18 @@
+#partners {
+    height: 380px;
+    background-color: #ededed;
+    padding: 45px 0 40px;
+
+    h2 {
+        color: #133a81;
+        font-size: 31px;
+        font-weight: 600;
+        line-height: 50px;
+        text-align: center;
+        margin: 0 0 47px;
+    }
+    .item-wrapp {
+        display: flex;
+        justify-content: space-between;
+    }
+}
